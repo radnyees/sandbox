@@ -1,0 +1,333 @@
+{
+  "MeasurementToolMetadata": {
+    "LongName": "Medical and Developmental History Questionnaire",
+    "Description": "Questions about subject and family history given prior to first study visit"
+  },
+  "speech_delay": {
+    "LongName": "Speech delay",
+    "Description": "Does your child have speech delays/problems? (ie: stutters, difficult to understand?)",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "speech_delay_explanation": {
+    "LongName": "Speech delay explanation",
+    "Description": "If yes [speech_delay], please explain"
+  },
+  "speech_language_therapy": {
+    "LongName": "Speech language therapy",
+    "Description": "Was speech/language therapy ever necessary?",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "struggle_reading": {
+    "LongName": "Reading struggles",
+    "Description": "Does your child struggle with reading?",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "struggle_reading_explanation": {
+    "LongName": "Reading struggles explanation",
+    "Description": "If yes [struggle_reading], please describe the nature of their difficulty:"
+  },
+  "reading_disability_tested": {
+    "LongName": "Tested for reading disability",
+    "Description": "Has your child ever been tested for a Reading Disability?",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "reading_disability_diagnosis": {
+    "LongName": "Reading disability testing diagnosis",
+    "description": "If your child HAS been tested for a Reading Disability, please list diagnosis:"
+  },
+  "tutoring_reading": {
+    "LongName": "Reading tutoring",
+    "Description": "Is or has your child received remediation/tutoring for reading issues?",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "struggle_math": {
+    "LongName": "Math struggles",
+    "Description": "Does your child struggle with math?",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "math_disability_tested": {
+    "LongName": "Tested for math disability",
+    "Description": "Has your child ever been tested for a Math Disability?",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "math_disability_diagnosis": {
+    "LongName": "Math disability testing diagnosis",
+    "description": "If your child HAS been tested for a Math Disability, please list diagnosis:"
+  },
+  "tutoring_math": {
+    "LongName": "Math tutoring",
+    "Description": "Is or has your child received remediation/tutoring for math issues?",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "school_type": {
+    "LongName": "School type",
+    "Description": "My child/children attend(s):"
+  },
+  "regular_classroom": {
+    "LongName": "Regular classroom",
+    "Description": "Is your child in a regular classroom?",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "other_classroom_type": {
+    "LongName": "Other classroom type",
+    "Description": "If no [regular_classroom], please specify:"
+  },
+  "skipped_grades": {
+    "LongName": "Skipped or repeated grades",
+    "Description": "Has your child repeated or skipped any grades?",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "skipped_grades_other": {
+    "LongName": "Specific skipped or repeated grades",
+    "Description": "If yes [skipped_grades], please specify:"
+  },
+  "individual_education_plan/504_plan": {
+    "LongName": "Individual Education Plan or 504 Plan",
+    "Description": "Does your child have an Individualized Education Plan or a 504 Plan?",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "learning_preference_teacher": {
+    "LongName": "Learning preference: Listening to teacher",
+    "Description": "How does your child prefer to learn? Selected: Listening in class to teacher.",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "learning_preference_visual": {
+    "LongName": "Learning preference: Viewing visual information",
+    "Description": "How does your child prefer to learn? Selected: Viewing visual information provided in class.",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "learning_preference_demonstrations": {
+    "LongName": "Learning preference: Watching demonstrations",
+    "Description": "How does your child prefer to learn? Selected: Watching demonstrations",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "learning_preference_peer-interactions": {
+    "LongName": "Learning preference: Interaction with peers",
+    "Description": "How does your child prefer to learn? Selected: Interaction with peers",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "learning_preference_discussions": {
+    "LongName": "Learning preference: Participating in discussions",
+    "Description": "How does your child prefer to learn? Selected: Participating in discussions",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "learning_preference_other": {
+    "LongName": "Learning preference: Other",
+    "Description": "How does your child prefer to learn? Listed answer"
+  },
+  "primary_language": {
+    "LongName": "Primary language",
+    "Description": "Primary language spoken at home:"
+  },
+  "lives_with": {
+    "LongName": "Lives with",
+    "Description": "Child lives with:"
+  },
+  "mother_age": {
+    "LongName": "Mother's age",
+    "Description": "Mother's age within indicated five year increment to protect subject identification"
+  },
+  "mother_occupation": {
+    "LongName": "Mother's occupation",
+    "Description": "First two digits (major and sub-major group) of ISCO-08 occupation code based on free response answer"
+  },
+  "mother_highest_grade": {
+    "LongName": "Mother's highest grade",
+    "Description": "Mother's highest grade/degree completed",
+    "Levels": {
+      "1": "No High School",
+      "2": "High School",
+      "3": "Some College",
+      "4": "Bachelor's Degree",
+      "5": "Graduate Degree"
+    }
+  },
+  "mother_learning_problems": {
+    "LongName": "Mother's learning problems",
+    "Description": "Mother: Any history of learning problems",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "mother_speech_problems": {
+    "LongName": "Mother's speech problems",
+    "Description": "Mother: Any history of speech problems",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "mother_behavioral_problems": {
+    "LongName": "Mother's behavioral problems",
+    "Description": "Mother: Any history of behavioral problems",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "mother_medical_problems": {
+    "LongName": "Mother's medical problems",
+    "Description": "Mother: Any history of medical problems",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "mother_emotional_problems": {
+    "LongName": "Mother's emotional problems",
+    "Description": "Mother: Any history of emotional problems",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "mother_drug_alcohol_abuse": {
+    "LongName": "Mother's drug or alcohol abuse",
+    "Description": "Mother: Any history of drug or alcohol abuse",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "father_age": {
+    "LongName": "Father's age",
+    "Description": "Father's age within indicated five year increment to protect subject identification"
+  },
+  "father_occupation": {
+    "LongName": "Father's occupation",
+    "Description": "First two digits (major and sub-major group) of ISCO-08 occupation code based on free response answer"
+  },
+  "father_highest_grade": {
+    "LongName": "Father's highest grade",
+    "Description": "Father's highest grade/degree completed"
+  },
+  "father_learning_problems": {
+    "LongName": "Father's learning problems",
+    "Description": "Father: Any history of learning problems",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "father_speech_problems": {
+    "LongName": "Father's speech problems",
+    "Description": "Father: Any history of speech problems",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "father_behavioral_problems": {
+    "LongName": "Father's behavioral problems",
+    "Description": "Father: Any history of behavioral problems",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "father_medical_problems": {
+    "LongName": "Father's medical problems",
+    "Description": "Father: Any history of medical problems",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "father_emotional_problems": {
+    "LongName": "Father's emotional problems",
+    "Description": "Father: Any history of emotional problems",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "father_drug_alcohol_abuse": {
+    "LongName": "Father's drug or alcohol abuse",
+    "Description": "Father: Any history of drug or alcohol abuse",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "family_history_learning_problems": {
+    "LongName": "Family history of learning problems",
+    "Description": "Family: Any history of learning problems",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "family_history_ADD": {
+    "LongName": "Family history of attention deficit disorder",
+    "Description": "Family: Any history of attention deficit disorder",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+  "family_history_behavioral_problems": {
+    "LongName": "Family history of behavioral problems",
+    "Description": "Family: Any history of behavioral problems",
+    "Levels": {
+      "1": "yes",
+      "2": "No"
+    }
+  },
+  "family_history_neurological_problems": {
+    "LongName": "Family history of neurological problems",
+    "Description": "Family: Any history of neurological problems",
+    "Levels": {
+      "1": "Yes",
+      "2": "No"
+    }
+  }
+}

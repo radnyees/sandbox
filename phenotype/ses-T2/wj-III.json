@@ -1,0 +1,39 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "Woodcock-Johnson III (WJ-III) Tests of Achievement Form A",
+    "TermURL": "http://cps.nova.edu/~cpphelp/WJIII-ACH.html",
+    "Citation": "Woodcock, R.W., Mather, N., & Schrank, F.A. (2004). Woodcock-Johnson III. Rolling Meadows, IL: Riverside Publishing."
+  },
+  "WJ-III_WordID_Raw": {
+    "LongName": "WJ-III Letter-Word Identification Raw Score",
+    "Description": "Letter-Word Identification subtest raw score"
+  },
+  "WJ-III_WordID_StS": {
+    "LongName": "WJ-III Letter-Word Identification Standard Score",
+    "Description": "Letter-Word Identification subtest standard score"
+  },
+  "WJ-III_Calc_Raw": {
+    "LongName": "WJ-III Calculation Raw Score",
+    "Description": "Calculation subtest raw score"
+  },
+  "WJ-III_Calc_StS": {
+    "LongName": "WJ-III Calculation Standard Score",
+    "Description": "Calculation subtest standard score"
+  },
+  "WJ-III_Spell_Raw": {
+    "LongName": "WJ-III Spelling Raw Score",
+    "Description": "Spelling subtest raw score"
+  },
+  "WJ-III_Spell_StS": {
+    "LongName": "WJ-III Spelling Standard Score",
+    "Description": "Spelling subtest standard score"
+  },
+  "WJ-III_WA_Raw": {
+    "LongName": "WJ-III Word Attack Raw Score",
+    "Description": "Word Attack subtest raw score"
+  },
+  "WJ-III_WA_StS": {
+    "LongName": "WJ-III Word Attack Standard Score",
+    "Description": "Word Attack subtest standard score"
+  }
+}

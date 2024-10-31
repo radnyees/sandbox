@@ -1,0 +1,49 @@
+{
+  "onset": {
+    "LongName": "Trial onset time",
+    "Description": "Onset time of the trial",
+    "Units": "s"
+  },
+  "duration": {
+    "LongName": "Trial duration",
+    "Description": "Duration of trial from presentation of the letter to end of fixation period",
+    "Units": "s"
+  },
+  "trial_type": {
+    "LongName": "Trial Condition",
+    "Description": "Category of trial type",
+    "Levels": {
+      "no_response": "trial does not require a response",
+      "baseline": "fixation trial",
+      "1-back": "references previous trial location/letter for response",
+      "2-back": "references trial twice prior location/letter for response"
+    }
+  },
+  "correct_response": {
+    "0": "n-back false",
+    "1": "n-back true or fixation response"
+  },
+  "accuracy": {
+    "LongName": "Trial accuarcy",
+    "Description": "Indicates if participant made correct or incorrect response",
+    "levels": {
+      "0": "incorrect",
+      "1": "correct"
+	}
+  },
+  "response_time": {
+    "LongName": "Response Time",
+    "Description": "Subject response time measrured from beginning of presentation of second stimulus",
+    "Units": "s"
+  },
+  "stimulus": {
+    "LongName": "Presented Stimulus",
+    "Description": "Presented letter or fixation stimulus"
+  },
+  "position": {
+    "TL": "top left corner",
+    "TR": "top right corner",
+    "BL": "bottom right corner",
+    "BR": "bottom left corner"
+  }
+}

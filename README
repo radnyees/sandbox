@@ -1,0 +1,14 @@
+#Experimental Design
+
+This experiment was implemented in E-prime following the design described in the
+task-<task>_bold.json files as well as illustrated in stimuli/task_design.jpg
+
+#Sessions
+
+At ses-T1 subjects competed standardized testing (located in phenotype/) as
+well as imaging sessions. At ses-T2 subjects only completed standardized
+testing.
+
+#Defacing
+
+Anatomical images were defaced according to procedure described in Lytle, McNorgan, & Booth (2019) (https://doi.org/10.1038/s41597-019-0338-5)

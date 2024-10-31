@@ -1,0 +1,35 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "Conners’ Continuous Performance Test II (CPT-II)",
+    "TermURL": "https://www.statisticssolutions.com/conners-continuous-performance-test-ii-cpt-ii/",
+    "Citation": "Conners, C. K. & MHS Staff (Eds.) (2000). Conners’ Continuous Performance Test II: Computer Program for Windows Technical Guide and Software Manual. North Tonwanda, NY: Mutli-Health Systems."
+  },
+  "CPT_Omissions_Raw": {
+    "LongName": "CPT Ommission Errors Raw Score",
+    "Description": "Omission errors raw score"
+  },
+  "CPT_Omissions_T-Score": {
+    "LongName": "CPT Omission Errors T-Score",
+    "Description": "Omission errors T-score"
+  },
+  "CPT_Commissions_Raw": {
+    "LongName": "CPT Commission Errors Raw Score",
+    "Description": "Commission errors raw score"
+  },
+  "CPT_Commissions_T-Score": {
+    "LongName": "CPT Commission Errors T-Score",
+    "Description": "Commission errors T-score"
+  },
+  "CPT_HitRT_Raw": {
+    "LongName": "CPT Hit Reaction Time Raw Score",
+    "Description": "Reaction time raw score"
+  },
+  "CPT_HitRT_T-Score": {
+    "LongName": "CPT Hit Reaction Time T-Score",
+    "Description": "Reaction time T-score"
+  },
+  "CPT_ConfidenceIndex": {
+    "LongName": "CPT Clinical Confidence Index",
+    "Description": "Clinical confidence index"
+  }
+}

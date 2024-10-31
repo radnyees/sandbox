@@ -1,0 +1,221 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "Kiddie Schedule for Affective Disorders and Schizophrenia- Present and Lifetime (K-SADS-PL) - ADHD portion and supplemental(if necessary)",
+    "TermURL": "http://www.icctc.org/PMM%20Handouts/Kiddie-SADS.pdf",
+    "Citation": "Kaufman, J., Birmaher, B., Brent, D., Rao, U., Flynn, C., Moreci, P., . . . Ryan, N. (1997). Schedule for Affective Disorders and Schizophrenia for School-Age Children-Present and Lifetime Version (K-SADS-PL): Initial Reliability and Validity Data. Journal of the American Academy of Child & Adolescent Psychiatry, 36(7), 980-988. doi:10.1097/00004583-199707000-00021"
+  },
+  "K-SADS-PL_Summary": {
+    "LongName": "K-SADS-PL Summary",
+    "Description": "Wholistic KSADS diagnostic summary as reviewed by licensed clinical psychologist."
+  },
+  "Difficulty_Attention": {
+    "LongName": "Difficulty with Attention",
+    "Description": "Difficulty Sustaining Attention on Tasks or Play Activities",
+    "levels": {
+      "0": "No information",
+      "1": "Not present",
+      "2": "Subthreshold: Occasionallly has difficulty sustaining attention on tasks or play activites. Problem has minimal effect on functioning.",
+      "3": "Threshold: Often has difficulty sustaining attention. Problem has moderate to severe effect on functioning"
+    }
+  },
+  "Easily_Distracted": {
+    "LongName": "Easily Distracted",
+    "Description": "Easily Distracted",
+    "levels": {
+      "0": "No information",
+      "1": "Not present",
+      "2": "Subthreshold: Occasionallly forgetful. Problem has only minimal effect on functioning.",
+      "3": "Threshold: Attention often disrupted by minor distractions other kids would be able to ignore. Problem has moderate to severe effect on functioning."
+    }
+  },
+  "Difficulty_Seated": {
+    "LongName": "Difficulty Remaining Seated",
+    "Description": "Difficulty Remaining Seated",
+    "levels": {
+      "0": "No information",
+      "1": "Not present",
+      "2": "Subthreshold: Occasionallly has difficulty remaining seated when required to do so. Problem has only minimal effect on functioning.",
+      "3": "Threshold: Often has difficulty remaining seated when required to do so. Problem has moderate to severe effect on functioning."
+    }
+  },
+  "Impulsivity": {
+    "LongName": "Impulsivity",
+    "Description": "Impulsivity",
+    "levels": {
+      "0": "No information",
+      "1": "Not present",
+      "2": "Subthreshold: Occasionallly has difficulty remaining seated when required to do so. Problem has only minimal effect on functioning.",
+      "3": "Threshold: Often has difficulty remaining seated when required to do so. Problem has moderate to severe effect on functioning."
+    }
+  },
+  "Careless_Mistakes": {
+    "LongName": "Careless Mistakes",
+    "Description": "Makes a lot of Careless Mistakes",
+    "levels": {
+      "0": "No information",
+      "1": "Not present",
+      "2": "Subthreshold: Occasionallly makes careless mistakes. Problem has only minimal effect on functioning.",
+      "3": "Threshold: Often makes careless mistakes. Problem has moderate to severe effect on functioning."
+    }
+  },
+  "Listening": {
+    "LongName": "Listening",
+    "Description": "Doesn't Listen",
+    "levels": {
+      "0": "No information",
+      "1": "Not present",
+      "2": "Subthreshold: Occasionallly doesn't listen. Problem has only minimal effect on functioning.",
+      "3": "Threshold: Often does not listen. Problem has moderate to severe effect on functioning."
+    }
+  },
+  "Difficulty_Instructions": {
+    "LongName": "Difficulty with Instructions",
+    "Description": "Difficulty Following Instructions",
+    "levels": {
+      "0": "No information",
+      "1": "Not present",
+      "2": "Subthreshold: Occasionallly has difficulty following instructions. Problem has only minimal effect on functioning.",
+      "3": "Threshold: Often has difficulty following instructions. Problem has moderate to severe effect on functioning."
+    }
+  },
+  "Difficulty_Organizing": {
+    "LongName": "Difficulty Organizing",
+    "Description": "Difficulty Organizing Tasks",
+    "levels": {
+      "0": "No information",
+      "1": "Not present",
+      "2": "Subthreshold: Occasionallly disorganized. Problem has only minimal effect on functioning.",
+      "3": "Threshold: Often disorganized. Problem has moderate to severe effect on functioning."
+    }
+  },
+  "Dislikes_Avoids_Tasks": {
+    "LongName": "Dislikes/Avoids Tasks",
+    "Description": "Dislikes/Avoids Tasks Requireing Attention",
+    "levels": {
+      "0": "No information",
+      "1": "Not present",
+      "2": "Subthreshold: Occasionallly avoids tasks that require sustained attention, and/or expresses mild dislike for these tasks. Problem has only minimal effect on functioning.",
+      "3": "Threshold: Often avoids tasks that require sustained attention, and/or expresses moderate dislike for these tasks. Problem has moderate to severe effect on functioning."
+    }
+  },
+  "Loses_Things": {
+    "LongName": "Loses Things",
+    "Description": "Loses Things",
+    "levels": {
+      "0": "No information",
+      "1": "Not present",
+      "2": "Subthreshold: Occasionallly loses things. Problem has only minimal effect on functioning.",
+      "3": "Threshold: Often loses things (e.g. once a week or more). Problem has moderate to severe effect on functioning."
+    }
+  },
+  "Forgetful": {
+    "LongName": "Forgetful",
+    "Description": "Forgetful in Daily Activities",
+    "levels": {
+      "0": "No information",
+      "1": "Not present",
+      "2": "Subthreshold: Occasionallly forgetful. Problem has only minimal effect on functioning.",
+      "3": "Threshold: Often forgetful. Problem has moderate to severe effect on functioning."
+    }
+  },
+  "Fidget": {
+    "LongName": "Fidget",
+    "Description": "Fidget",
+    "levels": {
+      "0": "No information",
+      "1": "Not present",
+      "2": "Subthreshold: Occasionallly fidgets with hands or feet or squirms in seat. Problem has only minimal effect on functioning.",
+      "3": "Threshold: Often fidgets with hands or feet or squirms in seat (e.g. At least 50% of the time). Problem has moderate to severe effect on functioning."
+    }
+  },
+  "Runs_Excessively": {
+    "LongName": "Runs Excessively",
+    "Description": "Runs or Climbs Excessively",
+    "levels": {
+      "0": "No information",
+      "1": "Not present",
+      "2": "Subthreshold: Occasionallly runs about or climbs excessively. Problem has only minimal effect on functioning. (In adolescents, may be limited to a subjective feeling of restlessness.)",
+      "3": "Threshold: Often runs about or climbs excessively. Problem has moderate to severe effect on functioning.(In adolescents, may be limited to a subjective feeling of restlessness.)"
+    }
+  },
+  "Driven_Motor": {
+    "LongName": "Driven by Motor",
+    "Description": "On the Go/Acts Like Driven by Motor",
+    "levels": {
+      "0": "No information",
+      "1": "Not present",
+      "2": "Subthreshold: Occasionallly, minimal effect on functioning. ",
+      "3": "Threshold: Often acts as if driven by motor. Moderate to severe effect on functioning."
+    }
+  },
+  "Difficulty_Playing_Quiet": {
+    "LongName": "Difficulty Playing Quietly",
+    "Description": "Difficulty Playing Quietly",
+    "levels": {
+      "0": "No information",
+      "1": "Not present",
+      "2": "Subthreshold: Occasionally has difficulty playing quietly. Problem has only minimal effect on functioning.",
+      "3": "Threshold: Often has difficulty playing quietly. Problem has moderate to severe effect on functioning"
+    }
+  },
+  "Blurts_Answers": {
+    "LongName": "Blurts Answers",
+    "Description": "Blurts Out Answers",
+    "levels": {
+      "0": "No information",
+      "1": "Not present",
+      "2": "Subthreshold: Occasionally talks out of turn. Problem has only minimal effect on functioning.",
+      "3": "Threshold: Often talks out of turn (e.g. daily or nearly daily). Problem has moderate to severe effect on functioning"
+    }
+  },
+  "Difficulty_Waiting": {
+    "LongName": "Difficulty Waiting",
+    "Description": "Difficulty Waiting Turn",
+    "levels": {
+      "0": "No information",
+      "1": "Not present",
+      "2": "Subthreshold: Occasionally has difficulty waiting his/her turn. Problem has only minimal effect on functioning.",
+      "3": "Threshold: Often has difficulty waiting his/her turn. Problem has moderate to severe effect on functioning"
+    }
+  },
+  "Interrupts_Intrudes": {
+    "LongName": "Interrupts or Intrudes",
+    "Description": "Interrumpts or Intrudes",
+    "levels": {
+      "0": "No information",
+      "1": "Not present",
+      "2": "Subthreshold: Occasionally interrupts others.",
+      "3": "Threshold: Often interrupts others."
+    }
+  },
+  "Shifts_Activities": {
+    "LongName": "Shifts Activities",
+    "Description": "Shifts Activities",
+    "levels": {
+      "0": "No information",
+      "1": "Not present",
+      "2": "Subthreshold: Occasionally shifts tasks and does not finish activities.",
+      "3": "Threshold: Often shifts tasks and does not finish activities."
+    }
+  },
+  "Talks_Excessively": {
+    "LongName": "Talks Excessively",
+    "Description": "Talks Excessively",
+    "levels": {
+      "0": "No information",
+      "1": "Not present",
+      "2": "Subthreshold: Occasionally talks excessively.",
+      "3": "Threshold: Often talks excessively."
+    }
+  },
+  "Engages_Danger": {
+    "LongName": "Engages Danger",
+    "Description": "Engages in Physically Dangerous Activites",
+    "levels": {
+      "0": "No information",
+      "1": "Not present",
+      "2": "Subthreshold: Occasionally engages in activities that are physically dangerous.",
+      "3": "Threshold: Often engages in activites that are physically dangerous."
+    }
+  }
+}

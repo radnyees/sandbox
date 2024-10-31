@@ -1,0 +1,27 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "Short Survey for Behavioral Avoidance System and Behavioral Inhibition System",
+    "TermURL": "http://www.psy.miami.edu/faculty/ccarver/sclBISBAS.html",
+    "Citation": "Franken, I.H.A., Muris, P. & Rassin, E. J Psychopathol Behav Assess (2005) 27: 25. https://doi.org/10.1007/s10862-005-3262-2"
+  },
+  "BIS_Total": {
+    "LongName": "Behavioral Inhibition System Total Score",
+    "Description": "Total score for behavioral inhibition test"
+  },
+  "BAS_Reward": {
+    "LongName": "Behavioral Avoidance System Reward Responsiveness Score",
+    "Description": "Reward responsiveness subscore"
+  },
+  "BAS_Drive": {
+    "LongName": "Behavioral Avoidance System Drive Score",
+    "Description": "Drive subscore"
+  },
+  "BAS_Fun": {
+    "LongName": "Behavioral Avoidance System Fun Seeking Score",
+    "Description": "Fun seeking subcore"
+  },
+  "BAS_Total": {
+    "LongName": "Behavioral Avoidance System Total Score",
+    "Description": "Total score for behavioral avoidance test"
+  }
+}

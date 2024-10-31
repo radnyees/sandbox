@@ -1,0 +1,27 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "Comprehensive Test of Phonological Processing (CTOPP)",
+    "TermURL": "http://alpha.fdu.edu/psychology/comprehensive_test_of_phonologic.htm",
+    "Citation": "Wagner, R. K., Torgesen, J. K., & Rashotte, C. A. (1999). Comprehensive test of phonological processing. Austin, TX: PRO-ED"
+  },
+  "CTOPP_EL_Raw": {
+    "LongName": "CTOPP Elision Raw Score",
+    "Description": "Elision subtest raw score"
+  },
+  "CTOPP_EL_StS": {
+    "LongName": "CTOPP Elision Standard Score",
+    "Description": "Elision subtest standardized score"
+  },
+  "CTOPP_BW_Raw": {
+    "LongName": "CTOPP Blending Words Raw Score",
+    "Description": "Blending words subtest raw score"
+  },
+  "CTOPP_BW_StS": {
+    "LongName": "CTOPP Blending Words Standard Score",
+    "Description": "Blending words subtest standardized score"
+  },
+  "CTOPP_PhonAwareness_Comp": {
+    "LongName": "CTOPP Phonemic Awareness Composite Score",
+    "Description": "Phonemic awareness composite score"
+  }
+}
