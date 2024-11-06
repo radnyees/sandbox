@@ -80,10 +80,44 @@ def EEG_signals_Fp2():
     plt.ylabel('Amplitude')
     plt.savefig('eeg_analysis_Fp2')
     plt.show()
-EEG_signals_Fp2()
 
 
 
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 
+def differ_channels():
+    # Step 1: Generate synthetic data
+    channels = ['Fp1', 'Fp2', 'F3', 'F4']
+    time_points = np.arange(1000)
+    data = {}  # Initialize 'data' as an empty dictionary
+
+    for channel in channels:
+        frequency = np.random.uniform(1, 10)
+        data[channel] = np.sin(2 * np.pi * frequency * time_points / 100) \
+                        + np.random.normal(0, 0.1, len(time_points))
+
+    df = pd.DataFrame(data, index=time_points)
+
+    # Step 2: Normalize signals
+    data_normalized = (df - df.mean()) / df.std()
+
+    # Step 3: Plot signals with offsets
+    plt.figure(figsize=(12, 6))
+    offset = 5
+    for i, channel in enumerate(channels):
+        plt.plot(data_normalized.index, data_normalized[channel] + i * offset, label=channel)
+
+    plt.title('Multichannel EEG Signals')
+    plt.xlabel('Time')
+    plt.ylabel('Normalized Amplitude with Offset')
+    plt.yticks([])
+    plt.legend(loc='upper right')
+    plt.savefig('EEG_Multichannels')
+    plt.show()
+
+
+differ_channels()
 
 
