@@ -48,7 +48,40 @@ def analyse_EEG():
     plt.savefig('eeg_plot.png')
     plt.show()
     
-analyse_EEG()
+
+
+def EEG_signals_Fp2():
+    import pandas as pd
+    import numpy as np
+    import matplotlib.pyplot as plt 
+    import seaborn as sns
+    sns.set_theme(style='whitegrid')
+    sampling_rate = 1000
+    duration = 2
+    n = sampling_rate * duration
+    time = np.linspace(0, duration, n, endpoint=False)
+    
+    # Generated new
+    delta = np.sin(2 * np.pi * 4 * time)
+    theta = np.sin(2 * np.pi * 8 * time)
+    alpha = np.sin(2 * np.pi * 12 * time)
+    beta = np.sin(2 * np.pi * 24 * time)
+    gamma = np.sin(2 * np.pi * 40 * time)
+    noise = np.random.normal(0, 0.5, n)
+    signal = delta + theta + alpha + beta + gamma + noise
+    
+    df = pd.DataFrame({'Time': time, 'Fp1': signal})
+    channel= 'Fp1'
+    data_to_plot=df[channel]
+    plt.figure(figsize=(12, 4))
+    plt.plot(data_to_plot.index, data_to_plot.values)
+    plt.title(f'EEG Signal from {channel}')
+    plt.xlabel('Time')
+    plt.ylabel('Amplitude')
+    plt.savefig('eeg_analysis_Fp2')
+    plt.show()
+EEG_signals_Fp2()
+
 
 
 
